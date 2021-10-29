@@ -1,0 +1,129 @@
+#Titulo-p{
+  color: #C4170C;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#Titulo-p::selection{
+  background-color: #C4170C;
+  color: #fff;
+}
+
+.Titulo-n{
+  color: #C4170C;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Titulo-n::selection{
+  background-color: #C4170C;
+  color: #fff;
+}
+
+main hr{
+  border-color: gray;
+}
+
+.SubTitulo-n{
+  color: black;
+  text-align: center;
+}
+
+.SubTitulo-n::selection{
+  background-color: #C4170C;
+  color: #fff;
+}
+
+.video{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-noticia{
+  font-size: 16px;
+  margin-top:20px;
+  margin-bottom: 25px;
+  text-align: justify;
+  color: #3F3F42;
+}
+
+.text-noticia ::selection{
+  background-color: #C4170C;
+  color: #fff;
+}
+
+
+.text-noticia a{
+  cursor: pointer;
+}
+
+article img{
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.diferentona{
+  width: 189px;
+  height: 200px;
+}
+
+/*Nav - página ciência*/
+.curosidades-ciêntificas{
+  margin-top: 20px;
+  display:block;
+}
+
+.curosidades-ciêntificas li{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 500px;
+}
+
+.curosidades-ciêntificas a {
+  color: #3F3F42;
+}
+.curosidades-ciêntificas a:hover{
+  color: #C4170C;
+}
+
+/*Fim - nav*/
+
+.link:link{
+  color: #C4170C;
+  text-decoration: none;
+}
+
+.link:visited{
+  color: #ac4509e0;
+  text-decoration: none;
+}
+
+/*Iframe*/
+
+#iframe{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#iframe iframe{
+  border-radius: 10px;
+}
+
+#iframe a{
+  text-decoration: none;
+  color: #C4170C;
+}
+
+/* Fim - Iframe */
+
+span{
+  color: #3F3F42;
+}

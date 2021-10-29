@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap ');
+
+*{
+    margin: 0 auto;
+    font-family: 'Opens Sans',sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+/*====Titulo====*/
+
+#Titulo-div{
+    text-align: center;
+    background-color: hsl(4, 88%, 41%);
+    padding: 5px;
+}
+
+#Titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    background-color: hsl(4, 88%, 41%);
+}
+
+#Titulo a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#Titulo a:hover{
+    color: #333;
+}
+
+/*==============*/
+
+/*====Menu====*/
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: #C4170C;
+}
+
+#menu li{
+    display: inline;
+    padding: 50px;
+}
+
+#menu ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#menu ul a:hover{
+    color: #333;
+}
+
+/*============*/
+
+/*Corpo da página*/
+
+main{
+    margin-top: 64px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+}
+
+/* Rodapé*/
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: #C4170C;
+}
+
+footer section ul{
+    list-style: none;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer ul li a{
+    color: white;
+}
+
+footer ul li a:hover{
+    color: #FFCF00;
+}
+
+#titulo-footer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.componentes-footer{
+    padding-top: 5px;
+}
+
+.componentes-footer li{
+    padding-bottom: 5px;
+}
