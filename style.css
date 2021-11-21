@@ -41,18 +41,18 @@
     list-style: none;
     padding: 0;
     background-color: #C4170C;
+    display: flex;
 }
 
 #menu li{
-    display: inline;
-    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
 }
 
 #menu ul a{
     text-decoration: none;
     color: #fff;
-    padding: 20px;
-    display: inline-block;
     cursor: pointer;
 }
 
